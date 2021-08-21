@@ -1,10 +1,10 @@
 import './App.css';
-import Login from './components/Login';
+import UserList from './components/UserList';
 
 function App() {
   return (
     <div className="container">
-      <Login />
+      <UserList />
     </div>
   );
 }
