@@ -14,8 +14,8 @@ export default class UserList extends Component {
   }
 
   handleSubmit(event) {
-    alert("A name was submitted: " + this.state.value);
     event.preventDefault();
+    alert("A name was submitted: " + this.state.value);
   }
 
   render() {
